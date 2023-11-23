@@ -81,7 +81,7 @@ p  {
 
 .photo__content {
     padding: 570px 30px;
-    background-image: url(/img/4bl.jpg);
+    background-image: url(../img/4bl.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 60px;
