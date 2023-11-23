@@ -46,6 +46,7 @@ img {
 body {
     margin: 0 auto; 
     max-width: 1024px;
+    min-width: 320px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -82,6 +83,7 @@ p  {
 .photo__content {
     padding: 570px 30px;
     background-image: url(../img/4bl.jpg);
+    background-color: #151414;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 60px;
@@ -217,7 +219,8 @@ p  {
 }
 
 .iframe {
-    width: 80%;
+    width: 640px;
+    height: 1206px;
 }
 
 .photo {
@@ -273,8 +276,17 @@ p  {
         font-size: 18px;
     }
     
+    .iframe {
+        width: 600px;
+    }
 
 
+}
+
+@media (max-width:620px) {
+    .iframe {
+        width: 525px;
+    }
 }
 
 @media (max-width:580px) {
@@ -288,6 +300,10 @@ p  {
 
     .third__title {
         font-size: 16px;
+    }
+
+    .iframe {
+        width: 430px;
     }
     
 
@@ -311,6 +327,12 @@ p  {
     .main__text {
         font-size: 18px;
     }
+
+    .iframe {
+        width: 320px;
+        height: 1600px;
+        max-height: 2500px;
+    }
     
 
 
@@ -330,6 +352,11 @@ p  {
         font-size: 20px;
     }
 
+    .iframe {
+        width: 300px;
+
+    }
+
 }
 
 
@@ -345,6 +372,10 @@ p  {
 
     .second__title {
         font-size: 20px;
+    }
+
+    .iframe {
+        width: 280px;
     }
 
 }
