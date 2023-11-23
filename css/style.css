@@ -1,0 +1,436 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+  
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-regular'),
+      url('../font/Montserrat-Regular.woff2') format('woff2'),
+      url('../font/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-light'),
+      url('../font/Montserrat-Light.woff2') format('woff2'),
+      url('../font/Montserrat-Light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat-bold'),
+      url('../font/Montserrat-Bold.woff2') format('woff2'),
+      url('../font/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0 auto; 
+    max-width: 1024px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+p  {
+    margin: 0;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.main {
+   /* background-color: rgb(25, 12, 12);*/
+   margin: 0;
+   padding: 20px;
+   margin: 0 auto;
+  
+
+}
+
+.time__content {
+    justify-content: center;
+}
+
+.photo__content {
+    padding: 570px 30px;
+    background-image: url(/img/4bl.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    height: 100%;/*background-position: ;*/
+    color: white;
+}
+
+.main__title {
+    width: 100%;
+    font-size: 56px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.love {
+    color: rgb(178, 82, 82);
+    font-weight: bold;
+}
+
+.with_love {
+    color: darkred;
+}
+.third__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+.background_color {
+    background-color: #c3c3c38f;
+    padding-bottom: 20px;
+}
+
+.main__text {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.timer {
+    margin-top: 130px;
+    border: 0.2px solid black;
+    padding: 20px 0;
+    background-color: #c3c3c33a;
+}
+
+.four__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.time__val {
+    font-size: 24px;
+}
+
+.time__items {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.program__link {
+   margin:0;
+   padding: 0;
+   list-style-type: none;
+   justify-content: space-evenly;
+  
+
+}
+.program_list {
+    padding: 0 20px;
+
+}
+
+.program__day {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.second__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.program__time {
+    font-size: 18px;
+    font-weight: 500;
+    
+
+}
+
+.text__more {
+    font-size: 20px;
+}
+
+.space {
+    margin-bottom: 120px;
+}
+
+.margin {
+    margin-bottom: 90px;
+}
+
+.address {
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    color: darkred;
+}
+
+.program__descr {
+    font-size: 18px;
+    line-height: 1.5;
+    border-bottom: 0.5px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.confirmation__text {
+    margin-bottom: 12px;
+}
+
+.confirmation__descr {
+    font-weight: bold;
+    color: darkred;
+}
+
+.consultation__form {
+    margin-top: 15px;
+}
+
+.iframe {
+    width: 80%;
+}
+
+.photo {
+    width: 150px;
+} 
+
+.confirmation__descr {
+    margin-bottom: 20px;
+}
+
+.the_end {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+@media (max-width:954px) {
+    .photo__content {
+        padding: 513px 40px;
+    }
+
+    
+
+
+}
+@media (max-width:860px) {
+    .photo__content {
+        padding: 415px 40px;
+    }
+
+    .main__title {
+        font-size: 42px;
+    }
+
+    .third__title {
+        font-size: 18px;
+    }
+    
+
+
+}
+
+@media (max-width:670px) {
+    .photo__content {
+        padding: 320px 40px;
+        margin-bottom: 25px;
+    }
+
+    .main__title {
+        font-size: 42px;
+    }
+
+    .third__title {
+        font-size: 18px;
+    }
+    
+
+
+}
+
+@media (max-width:580px) {
+    .photo__content {
+        padding: 270px 20px;
+    }
+
+    .main__title {
+        font-size: 38px;
+    }
+
+    .third__title {
+        font-size: 16px;
+    }
+    
+
+
+}
+
+@media (max-width:470px) {
+    .photo__content {
+        padding: 213px 40px;
+        margin-bottom: 30px;
+    }
+
+    .main__title {
+        font-size: 24px;
+    }
+
+    .third__title {
+        font-size: 12px;
+    }
+
+    .main__text {
+        font-size: 18px;
+    }
+    
+
+
+}
+
+@media (max-width:376px) {
+    .photo__content {
+        padding: 180px 40px;
+        margin-bottom: 20px;
+    }
+
+    .four__title {
+        font-size: 22px;
+    }
+
+    .second__title {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width:362px) {
+    .photo__content {
+        padding: 166px 40px;
+        margin-bottom: 20px;
+    }
+
+    .four__title {
+        font-size: 22px;
+    }
+
+    .second__title {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width:330px) {
+    .photo__content {
+        padding: 130px 40px;
+    }
+
+
+    .main__text {
+        font-size: 12px;
+    }
+
+    .timer {
+        padding: 20px 5px;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+
+    .time__items {
+        font-size: 14px;
+    }
+
+    .second__title {
+        font-size: 16px;
+    }
+
+    .program__day {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .program__time {
+        font-size: 14px;
+    }
+
+    .program_list {
+        font-size: 14px;
+    }
+
+    .program__descr {
+        font-size: 14px;
+    }
+
+    .space {
+        margin-bottom: 70px;
+    }
+
+    .margin {
+        font-size: 16px;
+    }
+
+    .the_end {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:282px) {
+
+    .main__title {
+        font-size: 18px;
+    }
+
+    .third__title {
+        font-size: 10px;
+    }
+
+    .photo__content {
+        padding: 125px 30px;
+    }
+
+    .the_end {
+        margin-bottom: 12px;
+    }
+
+    .with_love {
+        font-size: 12px;
+    }
+
+    .four__title {
+        font-size: 18px;
+    }
+
+    .time__items {
+        font-size: 12px;
+    }
+}
