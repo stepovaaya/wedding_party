@@ -125,6 +125,7 @@ p  {
 }
 
 .timer {
+    display:hidden;
     margin-top: 130px;
     border: 0.2px solid black;
     padding: 20px 0;
